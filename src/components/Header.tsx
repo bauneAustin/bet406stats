@@ -23,6 +23,13 @@ export default function Header() {
             >
               Dashboard
             </Link>
+            <Link 
+              to="/sports" 
+              className="px-4 py-2 text-sm font-medium text-cream/70 hover:text-cream hover:bg-white/5 rounded-md transition-all"
+              activeProps={{ className: 'bg-white/10 text-cream' }}
+            >
+              Sports
+            </Link>
           </nav>
         </div>
 
